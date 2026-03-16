@@ -1,0 +1,6 @@
+i = 20
+while i <=30:
+   if i == 25:
+         pass
+   print(i)
+   i+=1

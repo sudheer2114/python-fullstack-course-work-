@@ -1,0 +1,3 @@
+products = {'breads', 'butter','milk','sugar','eggs'}
+for things in products:
+    print(things)
