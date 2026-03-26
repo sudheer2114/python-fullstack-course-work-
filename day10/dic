@@ -1,0 +1,18 @@
+amount = float(input("Enter the amount: "))
+
+if amount <= 1000:
+    discount_rate = 0.05
+elif amount <= 5000:
+    discount_rate = 0.10
+elif amount <= 10000:
+    discount_rate = 0.15
+else:
+    discount_rate = 0
+
+discount = amount * discount_rate
+final_amount = amount - discount
+
+print("Original amount:", amount)
+print("Discount applied:", discount_rate * 100, "%")
+print("Discount amount:", discount)
+print("Amount to be paid after discount:", final_amount)
